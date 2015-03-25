@@ -1,0 +1,15 @@
+repositories {
+    jcenter()
+}
+
+apply plugin: 'java'
+
+jar {
+    baseName = 'geson-demo-model'
+    version = '0.1.0'
+}
+
+dependencies {
+    compile 'org.projectlombok:lombok:1.16.2'
+    compile 'com.google.code.gson:gson:2.3.1'
+}
